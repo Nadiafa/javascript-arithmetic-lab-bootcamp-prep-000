@@ -2,15 +2,15 @@ function add(a, b){
   return a + b
 }
 
-function subtract(){
-
+function subtract(a, b){
+return a + b
 }
 
-function multiply() {
+function multiply(a, b) {
   
 }
 
-function divide() {
+function divide(a, b) {
   return 
 }
 
@@ -22,9 +22,6 @@ function divide() {
 //   b = Math.floor(Math.random() * 1000)
 // })
 
-// it('add(a, b) adds two numbers and returns the result', function() {
-//   expect(add(a, b)).toEqual(a + b)
-// })
 
 // it('subtract(a, b) subtracts b from a and returns the result', function() {
 //   expect(subtract(a, b)).toEqual(a - b)
