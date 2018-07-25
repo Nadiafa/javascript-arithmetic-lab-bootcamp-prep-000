@@ -31,7 +31,9 @@ function makeInt(n, base) {
   var nResult = parseInt(n, base)
   if (nResult === n){
     return parseInt(n)
-  } else if ()
+  } else if (isNAN(nResult)) {
+    
+  }
 }
 
 
