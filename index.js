@@ -27,9 +27,11 @@ function makeInt(n) {
 }
 
 function makeInt(n, base) {
+  var base = 10
   var nResult = parseInt(n, base)
-  if (nResult === )
-  return parseInt(n)
+  if (nResult === n){
+    return parseInt(n)
+  } else if ()
 }
 
 
