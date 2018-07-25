@@ -32,7 +32,7 @@ function makeInt(n, base) {
   if (nResult === n){
     return parseInt(n)
   } else if (isNAN(nResult)) {
-    return 
+    return 'NaN'
   }
 }
 
