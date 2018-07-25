@@ -22,10 +22,6 @@ function dec(a) {
   return a-=1
 }
 
-function makeInt(n) {
-  return parseInt(n)
-}
-
 function makeInt(n, base) {
   var base = 10
   var nResult = parseInt(n, base)
